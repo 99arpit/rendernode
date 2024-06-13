@@ -9,6 +9,9 @@ app.get("/", (req, res) => {
 app.get("/arpit", (req, res) => {
   res.send("Hello  arpit World!");
 });
+app.get("/sharma", (req, res) => {
+  res.send("sharma");
+});
 
 app.get("/h1", (req, res) => {
   res.send("<h1>this is h1 tag in html</h1>");
