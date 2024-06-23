@@ -15,6 +15,13 @@ app.get("/sharma", (req, res) => {
 app.get("/udit", (req, res) => {
   res.send("udit");
 });
+app.get("/userdata", (req, res) => {
+  res.send({
+    name: "arpit",
+    age: 25,
+    
+  });
+});
 app.get("/h1", (req, res) => {
   res.send("<h1>this is h1 tag in html</h1>");
 });
